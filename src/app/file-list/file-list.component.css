@@ -1,0 +1,18 @@
+.container-file-list{
+  display: grid;
+  grid-template-columns: 5% 10% 10% 50% 2% 8%;
+}
+:hover{
+  background: rgb(216, 216, 216);
+}
+.selected-row{
+  background-color: gainsboro;
+}
+.border{
+  border-bottom: 1px solid darkgrey;
+  border-left: 1px solid darkgrey;
+  border-right: 1px solid darkgrey;
+}
+.font-size-large{
+  font-size: large;
+}

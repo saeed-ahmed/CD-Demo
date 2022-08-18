@@ -1,0 +1,13 @@
+.container{
+  display: grid;
+  grid-template-columns: 5% 10% 20% 40% 10%;
+}
+.border{
+  border: 1px solid darkgrey;
+}
+.font-size-large{
+  font-size: large;
+}
+label:hover{
+  cursor: pointer;
+}

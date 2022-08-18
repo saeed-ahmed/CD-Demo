@@ -1,0 +1,8 @@
+<div><input type="checkbox" [disabled]="file.status.toLowerCase()!=='available'" (click)="onClick($event)" [checked]="file.isChecked"> </div>
+<div>{{file.name}}</div>
+<div>{{file.device}}</div>
+<div>{{file.path}}</div>
+<div [ngClass]="{circle:file.status.toLowerCase()==='available'}"></div>
+<div>
+  {{file.status}}
+</div>
